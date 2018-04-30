@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+                
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript"></script>
+
+</head>
+<body>
+
+        <div class="container">
+            <div class="center-align">
+                <a href="#modal" class="waves-effect waves-green btn black" style="margin-top:400px;"> Click here to Log In</a>
+            </div>
+            <div id="modal" class="modal">
+                <div class="container">
+                    <div class="modal-content">
+                        <h2 class="blue-text center-align" style="margin-top:25px;"> Welcome to the Utopian.io! </h2>
+                        <br></br>
+                        <form id="form">
+                      	<div class="row">
+                            <form id="form">
+                                <div class="row">
+                                <div class="input-field">
+                                <i class="material-icons prefix black-text">account_circle</i>
+                              <input placeholder="Enter your Username" id="user" class="id" name="id" type="text">
+                                                </div>
+                                                <div class="input-field">
+                                                <i class="material-icons prefix black-text">lock</i>
+                                                    <input placeholder="Enter your Password" id="password" class="password " name="password" type="password">
+                                                </div>
+                                            </div>
+                        <div class="modal-footer">
+                            <button class="btn waves-effect waves-light blue">Sign In</button>
+                        </div></form>
+
+                        <script>
+                        
+                        $(document).ready(function(){
+                            $('.modal').modal();
+
+                        });
+                        
+                        
+                        </script>
+
+
+</body>
+</html>
+
+
