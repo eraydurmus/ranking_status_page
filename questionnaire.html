@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  
+
+<head>
+                
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  </head>
+  <body>
+
+      <div class="input-field col s12">
+        <select>
+          <option value="" disabled selected>Select Category</option>
+          <option value="1">Video Tutorials</option>
+          <option value="2">Development</option>
+          <option value="3">Grapihcs</option>
+          <option value="4">Tutorials</option>
+        </select>
+          <label>Category</label>
+      </div>
+
+      <div class="input-field col s12">
+        <select>     
+        <option value="" disabled selected>Select Site</option>
+        <option value="1" data-icon="images/utoplogo.png">Utopian.io</option>
+        <option value="2" data-icon="images/busy.png">Busy.org</option>
+        <option value="3" data-icon="images/steemit.png">Steemit.com</option>
+        </select>
+        <label>Which site the contribution was prepared?</label>
+        </div>
+
+
+        <div class="input-field col s12">
+         <select>
+         <option value="" disabled selected>Select Quality</option>
+         <optgroup label="Normal Level">
+         <option value="1">Low</option>
+         <option value="1">Decent</option>
+         <option value="2">High</option>
+         </optgroup>
+         <optgroup label="Foundation Level">
+         <option value="1">Low</option>
+         <option value="1">Decent</option>
+         <option value="2">High</option>
+         </optgroup>
+         </select>
+         <label>How is the contribution quality?</label>
+         </div>
+         </div>
+
+         <div class="input-field col s12">
+         <select>
+         <option value="" disabled selected>Select Value</option>
+         <option value="1">No value</option>
+         <option value="2">Some value</option>
+         <option value="3">Significant Value</option>
+         <option value="4">Extraordinary Value</option>
+         </select>
+         <label>Select Upvote Value for this Contribution</label>
+         </div>
+
+         <form action="#">
+            <p>           
+            <h5> Final Decision for Contribution </h5>
+            <label>
+            <input type="checkbox" />
+            <span style="color:green">Approve</span>
+            </label>
+            </p>
+            <p>
+            <label>
+            <input type="checkbox" />
+            <span style="color:red">Reject</span>
+            </label>
+            </p>
+            </form>
+            <center><a class="btn" onclick="M.toast({html: 'You are not a moderator'})" style="background: transparent; color: black;">Calculate the Score!</a></center>
+
+       <script>
+         $(document).ready(function(){
+           $('select').formSelect();
+         });
+
+       </script>
+
+</body>
+</html>
+
+
+
