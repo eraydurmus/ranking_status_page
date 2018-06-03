@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+  
+
+<head>
+                
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  </head>
+    <div class="card">
+    <div class="card-move-up">
+    <div class="move-up">
+ </div>
+ </div>
+    <div class="card-content teal white">
+    <a class="btn-floating btn-move-up waves-effect waves-light red right">
+    <i class="material-icons activator">info</i>
+</a>
+
+    <div class="container">
+        <center><img src="images/bigutopian.png"></center>
+        <center><h1> Utopian.io Category Stats</h1></center>
+        <center><img src="images/categories.png"></center>
+ </div>
+ </div>
+
+    <div class="card-reveal">
+    <center><span class="card-title red-text">Utopian.io Categories: Approved and Rejected contributions</span></center>
+    <table class="table">
+        <thead>
+        <tr>
+                <th data-field="category-name">Category Name</th>
+                <th data-field="approved">Approved</th>
+                <th data-field="rejected">Rejected</th>        
+  </tr>
+  </thead>
+        <tbody>
+        <tr>
+        <td>Development</td>
+        <td>10</td>
+        <td>20</td>
+  </tr>
+  <tr>
+        <td>Video Tutorials</td>
+        <td>20</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Bug Hunting</td>
+        <td>50</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Translations</td>
+        <td>5</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Documentation</td>
+        <td>10</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Suggestions</td>
+        <td>100</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Graphics</td>
+        <td>5</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+  </table>
+  <footer class="page-footer blue-grey darken-4">        
+        <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+            <center><h5 class="white-text">Utopian.io The Open Source Economy</h5></center>
+            <center><img src="images/utopianlogo.png"></center>
+            <p> Our modern world is driven by Open Source software. 
+                It runs on every computer, every smartphone or tablet and all your favorite apps would not run without it. 
+                It is developed mainly by volunteers and by hobbyists around the world, those geeks among your friends that love their computers more than hanging out with you. 
+                Open Source software is free and common property and allows everyone to use it and alter it to their needs. 
+            </p>
+            <div class="col">
+                    <ul class="nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://join.utopian.io/">Join Utopian.io</a>
+                        </li>
+                        <br>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://github.com/utopian-io">GitHub</a>
+                          </li>
+                          <br>
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://join.utopian.io/guidelines">Guidelines</a>
+                          </li>
+                          <br>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Community Managers</h5>
+                <ul>
+                <li><img class="circle" src="https://steemitimages.com/u/buckydurddle/avatar"height="30" width="30">Buckydurddle [Video Tutorials]</a></li>
+                <li><img class="circle" src="https://steemitimages.com/u/amosbastian/avatar"height="30" width="30">Amosbastian [Development]</a></li>
+                <li><img class="circle" src="https://steemitimages.com/u/andrejcibik/avatar"height="30" width="30">AndrejCibik [Graphics]</a></li>
+                <li><img class="circle" src="https://steemitimages.com/u/knowledges/avatar"height="30" width="30">Knowledges [Suggestions]</a></li>
+                <li><img class="circle" src="https://steemitimages.com/u/jestemkioskiem/avatar"height="30" width="30">Jestemkioskiem [Bug Hunting]</a></li>
+                </ul>
+                </div>
+                </div>
+                </div>
+                <div class="footer-copyright">
+                <div class="container">
+                @ 2017 Utopian.io All Rights Reserved
+                                <a class="grey-text right" href="https://join.utopian.io">Utopian.io</a>
+                                </div>
+                              </div>
+                            </footer>
+                          </div> 
+                        </div>
+                      </div>
